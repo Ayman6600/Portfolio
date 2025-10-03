@@ -76,13 +76,14 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[550px]">
                             <p className="text-2xl md:text-4xl font-thin mb-10 slide-up-and-fade">
-                                I'm a full-stack web developer dedicated to
+                                I&apos;m a full-stack web developer dedicated to
                                 turning ideas into creative solutions,
                                 specializing in both front-end and back-end
                                 development. I focus on building seamless,
                                 intuitive user experiences and robust, scalable
                                 server-side features.
                             </p>
+
                             <p className="text-2xl md:text-4xl font-thin mb-15 slide-up-and-fade">
                                 My approach focuses on creating scalable,
                                 high-performing solutions tailored to both user

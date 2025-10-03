@@ -2,6 +2,7 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Image from 'next/image';
 import React from 'react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -114,12 +115,15 @@ const Certificates = () => {
                                     View Credential
                                 </a>
                             )}
-                            {/* Certificate Image */}
+                            {/* Certificate Image using Next.js Image */}
                             {certificate.image && (
-                                <img
+                                <Image
                                     src={certificate.image}
                                     alt={`${certificate.title} Certificate`}
-                                    className="mt-4 rounded-lg shadow-md max-w-full h-auto"
+                                    className="mt-4 rounded-lg shadow-md"
+                                    width={600} // adjust width
+                                    height={400} // adjust height
+                                    priority={true} // optional: for better LCP
                                 />
                             )}
                         </div>
