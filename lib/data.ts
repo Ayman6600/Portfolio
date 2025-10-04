@@ -138,9 +138,9 @@ export const PROJECTS: IProject[] = [
         title: 'Weather-app',
         slug: 'Weather-app',
         techStack: ['HTML', 'CSS', 'JavaScript'],
-        thumbnail: '/projects/thumbnail/weather-app.png',
-        longThumbnail: '/projects/long/weather-app.png',
-        images: ['/projects/images/weather-app.png'],
+        thumbnail: '/projects/thumbnail/app.png',
+        longThumbnail: '/projects/long/app.png',
+        images: ['/projects/images/app.png'],
         liveUrl: 'https://weather-c8x9plqwc-ayman6600s-projects.vercel.app/',
         year: 2023,
         description: `WeatherPro is an advanced real-time weather forecasting app designed for seamless and interactive user experience. It features location-based searches, quick-access city buttons, detailed 7-day forecasts with dynamic icons, and live weather animations. The app also includes comprehensive weather statistics, sunrise and sunset times, and a theme toggle with auto-saving preferences, ensuring usability and engagement across devices.
